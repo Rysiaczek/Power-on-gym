@@ -1,0 +1,79 @@
+.nav {
+  position: fixed;
+  top: 0;
+  height: fit-content;
+  width: 100%;
+  z-index: 1;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .links {
+  text-align: right;
+}
+.nav .links a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.nav .logo {
+  color: white;
+  text-decoration: none;
+}
+.nav .logo img {
+  width: calc(height * 4.44);
+  height: 40px;
+}
+
+@media (min-width: 1200px) {
+  .nav .logo img {
+    width: calc(height * 4.44);
+    height: 50px;
+  }
+  .nav .links a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .nav .logo img {
+    width: calc(height * 4.44);
+    height: 60px;
+  }
+  .nav .links a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+  }
+}
+@media (min-width: 1600px) {
+  .nav .logo img {
+    width: calc(height * 4.44);
+    height: 70px;
+  }
+  .nav .links a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px 30px;
+  }
+}
+@media (min-width: 2100px) {
+  .nav .logo img {
+    width: calc(height * 4.44);
+    height: 80px;
+  }
+  .nav .links a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px 30px;
+  }
+}

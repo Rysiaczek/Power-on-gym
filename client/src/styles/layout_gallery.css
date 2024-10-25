@@ -1,0 +1,70 @@
+.layout-gallery {
+  height: 100vh;
+}
+.layout-gallery .title {
+  margin-top: 60px;
+  font-size: 80px;
+  text-align: center;
+}
+.layout-gallery .cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+.layout-gallery .cont .gallery-element {
+  width: 33.33%;
+  height: 600px;
+}
+.layout-gallery .cont .gallery-element .gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.layout-gallery .cont .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding: 30px;
+  background-color: black;
+  position: relative;
+  color: white;
+}
+.layout-gallery .cont .more {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+.layout-gallery .cont .more p {
+  border: 1px solid white;
+  padding: 70px 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  transition: 0.8s ease all 0.2s;
+}
+.layout-gallery .cont .more p:hover {
+  color: black;
+}
+.layout-gallery .cont .more p:hover::after {
+  top: 0%;
+}
+.layout-gallery .cont .more p::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  top: 100%;
+  left: 0;
+  transition: 0.8s;
+}
