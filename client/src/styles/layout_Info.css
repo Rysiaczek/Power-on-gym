@@ -125,9 +125,6 @@
   }
 }
 @media (min-width: 1600px) {
-  .layout-info .card {
-    margin-top: 100px;
-  }
   .layout-info .card .card-img img {
     width: 480px;
     height: 520px;
@@ -148,7 +145,6 @@
     /* justify-content: space-between; */
     align-items: center;
     overflow: hidden;
-    margin-top: 50px;
   }
   .layout-info .rev {
     flex-direction: row;
