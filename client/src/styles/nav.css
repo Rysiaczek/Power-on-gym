@@ -30,7 +30,6 @@
   display: block;
 }
 .nav .links a {
-  color: white;
   font-size: 16px;
   text-decoration: none;
   padding: 10px 20px;
@@ -70,7 +69,7 @@
     height: 50px;
   }
   .nav .links a {
-    color: white;
+    color: black;
     font-size: 20px;
     text-decoration: none;
     padding: 10px 20px;
@@ -82,13 +81,6 @@
     width: calc(height * 4.44);
     height: 60px;
   }
-
-  .nav .links a {
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px 30px;
-  }
 }
 @media (min-width: 1600px) {
   .nav .logo img {
@@ -96,9 +88,7 @@
     height: 70px;
   }
   .nav .links a {
-    color: white;
     font-size: 25px;
-    text-decoration: none;
     padding: 20px 30px;
   }
 }
@@ -108,9 +98,7 @@
     height: 80px;
   }
   .nav .links a {
-    color: white;
     font-size: 30px;
-    text-decoration: none;
     padding: 20px 30px;
   }
 }

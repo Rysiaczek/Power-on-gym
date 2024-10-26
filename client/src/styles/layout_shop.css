@@ -1,0 +1,68 @@
+.layoutShop {
+  height: max-content;
+  padding: 50px 0;
+}
+.layoutShop .title {
+  font-size: 60px;
+  text-align: center;
+}
+.layoutShop .content {
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+.layoutShop .btn p {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  position: relative;
+  border: 2px solid #000;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.5s ease all 0.2s;
+}
+.layoutShop .btn p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  background: #000;
+  position: absolute;
+  transition: 0.5s ease all;
+  z-index: -1;
+}
+.layoutShop .btn p:hover::after {
+  left: 0;
+}
+.layoutShop .btn p:hover {
+  color: white;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .layoutShop .content {
+    padding: 0 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
+@media (min-width: 1600px) {
+}
+@media (min-width: 1900px) {
+  .layoutShop .content {
+    padding: 0 100px;
+  }
+}

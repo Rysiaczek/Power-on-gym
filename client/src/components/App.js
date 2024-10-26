@@ -1,5 +1,6 @@
 import Main from "./Main";
 import Nav from "./nav";
+import Footer from "./Footer";
 
 import "../styles/App.css";
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Nav />
       <Main />
+      <Footer />
     </>
   );
 }
