@@ -1,23 +1,40 @@
 .nav {
   position: fixed;
-  display: none;
   top: 0;
   height: fit-content;
   width: 100%;
   z-index: 1;
-  padding: 30px 30px;
   flex-direction: row;
+  padding: 30px 30px;
   justify-content: space-between;
   align-items: center;
 }
 .nav .links {
+  text-align: center;
+  transition: all 0.5s;
+  padding-top: 120px;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-color: white;
+  height: 100vh;
+}
+.nav .respons {
   text-align: right;
+  font-size: 40px;
+  color: black;
+  display: block;
 }
 .nav .links a {
   color: white;
   font-size: 16px;
   text-decoration: none;
   padding: 10px 20px;
+  color: black;
 }
 .nav .logo {
   color: white;
@@ -31,6 +48,22 @@
 @media (min-width: 1200px) {
   .nav {
     display: flex;
+  }
+  .nav .respons {
+    display: none;
+  }
+  .nav .links {
+    display: block;
+    transition: all 0s;
+    padding-top: 0px;
+    position: unset;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    flex-direction: none;
+    width: fit-content;
+    background-color: transparent;
+    height: 100%;
   }
   .nav .logo img {
     width: calc(height * 4.44);
@@ -49,6 +82,7 @@
     width: calc(height * 4.44);
     height: 60px;
   }
+
   .nav .links a {
     color: white;
     font-size: 20px;

@@ -138,7 +138,7 @@
     font-size: 20px;
   }
 }
-@media (min-width: 2100px) {
+@media (min-width: 1900px) {
   .layout-info .card {
     height: 100vh;
     display: flex;
@@ -173,8 +173,8 @@
     width: 60%;
   }
   .layout-info .card .card-img img {
-    width: 800px;
-    height: 870px;
+    width: 550px;
+    height: 600px;
     margin-left: 50%;
     transform: translateX(-50%);
   }
