@@ -6,12 +6,15 @@ function Nav() {
 
   const respons = () => {
     const links = document.querySelector(".links");
+    const body = document.querySelector("body");
 
     if (active === false) {
       links.style.left = "0";
+      body.style.overflow = "hidden";
       setActive(true);
     } else {
       links.style.left = "100%";
+      body.style.overflow = "auto";
       setActive(false);
     }
   };
